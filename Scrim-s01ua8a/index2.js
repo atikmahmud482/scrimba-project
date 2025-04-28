@@ -40,7 +40,7 @@ From: 0
 To: 5.999999
 
 */
-// let randomNumber = Math.random() * 6
+/* // let randomNumber = Math.random() * 6
 
 let flooredNumber = Math.floor(12);
 
@@ -51,5 +51,17 @@ console.log(flooredNumber);
 What does Math.floor() do to positive numbers?
 
 Your answer: it removes the decimals
+
+*/
+let randomNumber = Math.floor(Math.random() * 6);
+
+console.log(randomNumber);
+
+/* 
+
+Write down all the possible values randomNumber can hold now!
+
+  0,1,2,3,4,5
+
 
 */
