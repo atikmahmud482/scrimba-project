@@ -1,4 +1,4 @@
-let player1Time = 102;
+/* let player1Time = 102;
 let player2Time = 107;
 
 // cmd+d - ctrl+d
@@ -26,3 +26,17 @@ function getTotalRaceTime() {
 let totalTime = getTotalRaceTime();
 
 console.log(totalTime);
+ */
+
+let randomNumber = Math.random() * 6;
+
+console.log(randomNumber);
+
+/* 
+
+In which range will our randomNumber be now?
+
+From: 0
+To: 5.999999
+
+*/
